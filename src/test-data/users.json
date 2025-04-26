@@ -1,0 +1,12 @@
+{
+  "userData": {
+    "validUser": {
+      "username": "admin",
+      "password": "password123"
+    },
+    "invalidUser": {
+      "username": "wrong_user",
+      "password": "wrong_password"
+    }
+  }
+} 

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@fixtures/*": ["./src/fixtures/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@test-data/*": ["./src/test-data/*"],
+      "@environments/*": ["./src/environments/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "playwright.config.ts", "globalSetup.ts"]
+} 

@@ -1,0 +1,44 @@
+# Node
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables files
+.env*
+
+# Playwright
+playwright-report/
+test-results/
+screenshots/
+videos/
+
+# VSCode
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# CSV logs
+*.csv
+
+# Cursor
+.cursor/ 
